@@ -1,0 +1,25 @@
+.flex-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.encabezado{
+    display: flex;
+
+}
+
+.date{
+    font-size: 8px;
+    top: 0;
+    right: 0;
+}
+
+.card-header{
+    padding-left: 0;
+}
+
+.grip3{
+    height: 300px;
+    padding: 12px 0px;
+}

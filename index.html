@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+        <script src="https://kit.fontawesome.com/6f1e758bab.js" crossorigin="anonymous"></script>
+        <title>Instagram Feed con Bootstrap</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <nav class="navbar bg-body-tertiary">
+                    <div class="col-9">
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#">
+                            <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+                            Instagram
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Create a new post
+                        </button>    
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">                                        
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Caption:</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                            <button type="button"  class="btn btn-link"><i class="fa-solid fa-camera" style="color: #000000;"></i></button>
+                                            <button type="button" class="btn btn-link"><i class="fa-solid fa-location-dot" style="color: #000000;"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Publish</button>
+                                    </div>
+                                </div>
+                            </div>       
+                        </div>
+                    </div>
+                    <div class="col-auto">
+                        <!-- Example single danger button -->
+                        <div class="btn-group bg-secondary">
+                            <button type="button" class="btn btn-gray dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                            <li><a class="dropdown-item" href="#">Privace and data</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+                            </ul>
+                        </div>                     
+                    </div>
+                </nav>
+            </div>
+            <div class="row">
+                <ul class="nav justify-content-center">
+                    <li class="nav-item justify-content-center">
+                      <a class="nav-link active" aria-current="page" href="index.html"><i class="fa-solid fa-table-cells"></i></a>
+                    </li>
+                    <li class="nav-item justify-content-center" >
+                      <a class="nav-link" href="card.html"><i class="fa-solid fa-square"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="https://t2.uc.ltmcdn.com/es/posts/9/3/9/es_importante_que_un_beagle_sea_de_raza_50939_0_600.webp" class="img-fluid grip3" alt="...">
+                </div>
+                <div class="col-4">
+                    <img src="https://img.freepik.com/fotos-premium/grupo-jovenes-estudiantes-felices-universidad_85574-4531.jpg" class="img-fluid grip3" alt="...">
+                </div>
+                <div class="col-4">
+                    <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/3460.600x450.jpg?w=1900&h=1425" class="img-fluid grip3" alt="...">
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="https://149562642.v2.pressablecdn.com/wp-content/uploads/Katherine-Mena-350x250.jpg" class="img-fluid grip3" alt="...">
+                </div>
+                <div class="col-4">
+                    <img src="	https://cdn.pariscityvision.com/library/image/5144.jpg" class="img-fluid grip3" alt="...">
+                </div>
+                <div class="col-4">
+                    <img src="https://a.espncdn.com/photo/2018/0405/r352021_1296x729_16-9.jpg" class="img-fluid grip3" alt="...">
+                </div>    
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="	https://img.freepik.com/fotos-premium/familia-feli…esped-parque-dia-primavera_160672-1487.jpg?w=2000" class="img-fluid grip3" alt="...">
+                </div>
+                <div class="col-4">
+                    <img src="https://cdn.lynda.com/course/2838139/2838139-1613993931720-16x9.jpg" class="img-fluid grip3" alt="...">
+                </div>
+                <div class="col-4">
+                    <img src="https://imagenes.20minutos.es/files/image_990_v3/uploads/imagenes/2019/04/25/882598.jpg" class="img-fluid grip3" alt="...">
+                </div>    
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>    
+    </body>
+</html>
